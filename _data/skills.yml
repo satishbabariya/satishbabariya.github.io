@@ -13,3 +13,8 @@ tools:
   - item: Git & Github
   - item: XCode
   - item: VSCode
+
+design:
+  - item: Zeppelin
+  - item: Figma
+  - item: InVision
