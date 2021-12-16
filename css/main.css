@@ -828,7 +828,7 @@ strong {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 25px;
   margin-left: -5%;
   width: 125%;
 }
@@ -846,11 +846,11 @@ strong {
   .featured-projects .project {
     width: 100%;
     display: block;
-    margin-bottom: 70px;
+    margin-bottom: 25px;
   }
 }
 .featured-projects .project.screentime {
-  margin-bottom: 70px;
+  margin-bottom: 25px;
 }
 .featured-projects .project:last-of-type {
   margin-bottom: 0;
@@ -907,7 +907,7 @@ strong {
 }
 .other-projects .project {
   max-width: 600px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 .other-projects .project__name {
   margin-bottom: 10px;
