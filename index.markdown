@@ -1,6 +1,15 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
+
+<div id="site">
+  {% include switch.html %}
+  {% include intro.html %}
+  {% include background.html %}
+  {% include skills.html %}
+  {% include experience.html %}
+  {% include featured-projects.html %}
+  {% include other-projects.html %}
+  {% include footer.html %}
+  {% include top-button.html %}
+</div>
