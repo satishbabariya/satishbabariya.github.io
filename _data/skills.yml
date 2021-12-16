@@ -11,3 +11,5 @@ frameworks:
 tools:
   - item: Bash
   - item: Git & Github
+  - item: XCode
+  - item: VSCode
