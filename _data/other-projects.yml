@@ -18,3 +18,21 @@
     - thing: Typedi
     - thing: TypeORM
     - thing: Dependency Injection
+    
+- name: SwiftyContacts
+  url: https://github.com/SwiftyContacts/SwiftyContacts
+  code: https://github.com/SwiftyContacts/SwiftyContacts
+  description: A Swift library for Contacts framework.
+  used:
+    - thing: Swift
+    - thing: iOS
+    - thing: macOS
+    - thing: Framework
+
+- name: supabase-swift
+  url: https://github.com/supabase-community/supabase-swift
+  code: https://github.com/supabase-community/supabase-swift
+  description: A Swift client for Supabase
+  used:
+    - thing: Swift
+    - thing: Supabase
