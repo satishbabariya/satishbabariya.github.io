@@ -1,20 +1,29 @@
 languages:
-  - item: Swift (iOS)
-  - item: TypeScript
+  - item: Swift
   - item: Go
+  - item: TypeScript
+  - item: Rust
+  - item: C++
+  - item: Java
 
 frameworks:
-  - item: React Native
-  - item: React.js
-  - item: Node.js
+  - item: Echo (Go)
+  - item: Express / Fastify
+  - item: React / React Native
+  - item: SwiftUI / UIKit
+  - item: gRPC / Connect-Go
+  - item: Spring Boot
 
 tools:
-  - item: Bash
-  - item: Git & Github
-  - item: XCode
-  - item: VSCode
+  - item: Terraform
+  - item: Docker
+  - item: AWS (Lambda, DynamoDB, SQS, CloudWatch)
+  - item: LLVM
+  - item: Git & GitHub Actions
+  - item: ELK Stack
 
 design:
-  - item: Zeppelin
-  - item: Figma
-  - item: InVision
+  - item: Clean Architecture
+  - item: Compiler Design (Lexer/Parser/AST)
+  - item: Distributed Systems (Raft)
+  - item: SDK & API Design

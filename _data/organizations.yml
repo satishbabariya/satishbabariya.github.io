@@ -1,0 +1,37 @@
+- name: Tarka Labs
+  url: https://github.com/tarkalabs
+  description: Current employer. Building cloud infrastructure for Yamaha Creators Platform using Terraform, AWS, and GitHub Actions.
+  role:
+    - thing: Software Engineer
+    - thing: Terraform
+    - thing: AWS
+    - thing: CI/CD
+
+- name: Supabase Community
+  url: https://github.com/supabase-community
+  description: Built the entire official Swift SDK ecosystem for Supabase — GoTrue auth, Realtime subscriptions, PostgREST queries, Storage, Functions, and shared core interfaces.
+  role:
+    - thing: SDK Creator
+    - thing: Maintainer
+    - thing: Swift
+
+- name: RxSwiftCommunity
+  url: https://github.com/RxSwiftCommunity
+  description: Contributed RxContacts — an RxSwift wrapper around Apple's Contacts framework — to the official RxSwift ecosystem.
+  role:
+    - thing: Contributor
+    - thing: RxContacts
+
+- name: Theia IDE
+  url: https://github.com/eclipse-theia
+  description: Worked on Swift language support for the Theia Cloud IDE, including LSP integration and Docker images.
+  role:
+    - thing: Member
+    - thing: Swift Extension
+
+- name: nomuq
+  url: https://github.com/nomuq
+  description: Personal organization for experimental and archived projects. Houses 200+ repos spanning Swift compilers, manga scrapers, VPN tooling, game engines, invoicing apps, and more.
+  role:
+    - thing: Owner
+    - thing: Experiments

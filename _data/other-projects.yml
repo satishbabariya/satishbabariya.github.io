@@ -1,38 +1,656 @@
-- name: mongorpc
-  url: https://github.com/mongorpc/mongorpc
-  code: https://github.com/mongorpc/mongorpc
-  description: mongorpc is a server that can be used to communicate with MongoDB using gRPC. mongorpc can be used with microservices, or from any mobile or web applications
-  used:
-    - thing: Go
-    - thing: MongoDB
-    - thing: gRPC
+# ──────────────────────────────────────────
+# Supabase Community SDKs (Creator)
+# ──────────────────────────────────────────
 
-- name: resty.js
-  url: https://github.com/restyjs/resty
-  code: https://github.com/restyjs/resty
-  description: Fast, opinionated, minimalist and testable web framework built on top of express.js and typescript with decorators.
-  used:
-    - thing: Node.js
-    - thing: Express.js
-    - thing: TypeScript
-    - thing: Typedi
-    - thing: TypeORM
-    - thing: Dependency Injection
-    
-- name: SwiftyContacts
-  url: https://github.com/SwiftyContacts/SwiftyContacts
-  code: https://github.com/SwiftyContacts/SwiftyContacts
-  description: A Swift library for Contacts framework.
-  used:
-    - thing: Swift
-    - thing: iOS
-    - thing: macOS
-    - thing: Framework
-
-- name: supabase-swift
-  url: https://github.com/supabase-community/supabase-swift
-  code: https://github.com/supabase-community/supabase-swift
-  description: A Swift client for Supabase
+- name: "realtime-swift"
+  url: https://github.com/supabase-community/realtime-swift
+  code: https://github.com/supabase-community/realtime-swift
+  description: "A Swift client for Supabase Realtime server. Real-time subscriptions and presence. 52 stars."
   used:
     - thing: Swift
     - thing: Supabase
+    - thing: WebSocket
+
+- name: "postgrest-swift"
+  url: https://github.com/supabase-community/postgrest-swift
+  code: https://github.com/supabase-community/postgrest-swift
+  description: "Swift client for PostgREST. Type-safe database queries with Codable support. 43 stars."
+  used:
+    - thing: Swift
+    - thing: Supabase
+    - thing: PostgREST
+
+- name: "gotrue-swift"
+  url: https://github.com/supabase-community/gotrue-swift
+  code: https://github.com/supabase-community/gotrue-swift
+  description: "A Swift client library for GoTrue authentication. Session management, OAuth, keychain storage. 36 stars."
+  used:
+    - thing: Swift
+    - thing: Supabase
+    - thing: Auth
+
+- name: "storage-swift"
+  url: https://github.com/supabase-community/storage-swift
+  code: https://github.com/supabase-community/storage-swift
+  description: "Swift client library to interact with Supabase Storage. File upload, download, and bucket management. 26 stars."
+  used:
+    - thing: Swift
+    - thing: Supabase
+    - thing: Storage
+
+- name: "functions-swift"
+  url: https://github.com/supabase-community/functions-swift
+  code: https://github.com/supabase-community/functions-swift
+  description: "Swift client library to interact with Supabase Edge Functions. 10 stars."
+  used:
+    - thing: Swift
+    - thing: Supabase
+    - thing: Edge Functions
+
+- name: "core-swift"
+  url: https://github.com/supabase-community/core-swift
+  code: https://github.com/supabase-community/core-swift
+  description: "Shared interfaces and helpers for Supabase Swift libraries."
+  used:
+    - thing: Swift
+    - thing: Supabase
+
+# ──────────────────────────────────────────
+# Personal Repos — Starred / Notable
+# ──────────────────────────────────────────
+
+- name: "nodejs-boilerplate"
+  url: https://github.com/satishbabariya/nodejs-boilerplate
+  code: https://github.com/satishbabariya/nodejs-boilerplate
+  description: "Clean Architecture for Node.js projects with TypeScript, Express, TypeORM, and dependency injection via Typedi. 420 stars."
+  used:
+    - thing: TypeScript
+    - thing: Express
+    - thing: TypeORM
+    - thing: Typedi
+    - thing: Clean Architecture
+
+- name: "HexPatternView"
+  url: https://github.com/satishbabariya/HexPatternView
+  code: https://github.com/satishbabariya/HexPatternView
+  description: "Beautiful hexagonal pattern UI component for iOS. 44 stars."
+  used:
+    - thing: Swift
+    - thing: iOS
+    - thing: UI Component
+
+- name: "Chatter"
+  url: https://github.com/satishbabariya/Chatter
+  code: https://github.com/satishbabariya/Chatter
+  description: "Real-time chat application built with Swift 4, powered by Firebase Auth, Realtime Database, Cloud Messaging, and Functions. 30 stars."
+  used:
+    - thing: Swift
+    - thing: Firebase
+    - thing: Real-time Chat
+
+- name: "swift-online-playground"
+  url: https://github.com/satishbabariya/swift-online-playground
+  code: https://github.com/satishbabariya/swift-online-playground
+  description: "Online Swift playground with IntelliSense powered by Monaco Editor and Language Server Protocol. 25 stars."
+  used:
+    - thing: TypeScript
+    - thing: Monaco Editor
+    - thing: LSP
+    - thing: Docker
+
+- name: "swift-boilerplate"
+  url: https://github.com/satishbabariya/swift-boilerplate
+  code: https://github.com/satishbabariya/swift-boilerplate
+  description: "Clean Architecture iOS boilerplate with programmatic UI, MVC, RxSwift, Auto Layout Visual Format, and JWT auth. 23 stars."
+  used:
+    - thing: Swift
+    - thing: RxSwift
+    - thing: Clean Architecture
+
+- name: "qualcomm-atheros-QCA9377-wireless-patch"
+  url: https://github.com/satishbabariya/qualcomm-atheros-QCA9377-wireless-patch
+  code: https://github.com/satishbabariya/qualcomm-atheros-QCA9377-wireless-patch
+  description: "Qualcomm Atheros QCA9377 wireless driver patch for Lenovo laptops running Ubuntu. 20 stars."
+  used:
+    - thing: Linux
+    - thing: Ubuntu
+    - thing: Drivers
+
+- name: "NVPullToRefresh"
+  url: https://github.com/satishbabariya/NVPullToRefresh
+  code: https://github.com/satishbabariya/NVPullToRefresh
+  description: "NVActivityIndicatorView + PullToRefresh integration for iOS. 16 stars."
+  used:
+    - thing: Swift
+    - thing: iOS
+    - thing: UI
+
+- name: "Danbooru-Lite"
+  url: https://github.com/satishbabariya/Danbooru-Lite
+  code: https://github.com/satishbabariya/Danbooru-Lite
+  description: "Image browsing iOS app. Connect to photo hosting services, download images, set wallpapers. 12 stars."
+  used:
+    - thing: Swift
+    - thing: iOS
+    - thing: Image Browsing
+
+- name: "go-echo-auth0-middleware"
+  url: https://github.com/satishbabariya/go-echo-auth0-middleware
+  code: https://github.com/satishbabariya/go-echo-auth0-middleware
+  description: "Auth0 JWT authentication middleware for Go's Echo framework. 9 stars."
+  used:
+    - thing: Go
+    - thing: Auth0
+    - thing: JWT
+    - thing: Echo
+
+- name: "minimal-react-ssr-typescript"
+  url: https://github.com/satishbabariya/minimal-react-ssr-typescript
+  code: https://github.com/satishbabariya/minimal-react-ssr-typescript
+  description: "Minimal sample of server-side rendering using TypeScript, React, and Webpack. 8 stars."
+  used:
+    - thing: TypeScript
+    - thing: React
+    - thing: SSR
+    - thing: Webpack
+
+- name: "elastic-stack-docker"
+  url: https://github.com/satishbabariya/elastic-stack-docker
+  code: https://github.com/satishbabariya/elastic-stack-docker
+  description: "Full Elastic stack (ELK) on Docker — APM, Logging, Elasticsearch, Kibana, and Beats. 7 stars."
+  used:
+    - thing: Docker
+    - thing: Elasticsearch
+    - thing: Kibana
+    - thing: Logstash
+
+- name: "nodejs-prisma-fastify-boilerplate"
+  url: https://github.com/satishbabariya/nodejs-prisma-fastify-boilerplate
+  code: https://github.com/satishbabariya/nodejs-prisma-fastify-boilerplate
+  description: "Clean Architecture for Node.js projects using Fastify and Prisma. 6 stars."
+  used:
+    - thing: TypeScript
+    - thing: Fastify
+    - thing: Prisma
+
+- name: "swift-snapshots-docker"
+  url: https://github.com/satishbabariya/swift-snapshots-docker
+  code: https://github.com/satishbabariya/swift-snapshots-docker
+  description: "Swift Development Snapshot Docker images for CI/CD and development. 6 stars."
+  used:
+    - thing: Dockerfile
+    - thing: Swift
+    - thing: Docker
+
+- name: "resty"
+  url: https://github.com/satishbabariya/resty
+  code: https://github.com/satishbabariya/resty
+  description: "Simple HTTP Networking Library for Swift with Async/Await and Codable support. 5 stars."
+  used:
+    - thing: Swift
+    - thing: Async/Await
+    - thing: Networking
+
+- name: "swift-docker-builder"
+  url: https://github.com/satishbabariya/swift-docker-builder
+  code: https://github.com/satishbabariya/swift-docker-builder
+  description: "Swift Dockerfile Builder written in Go. 5 stars."
+  used:
+    - thing: Go
+    - thing: Docker
+    - thing: Swift
+
+- name: "gitlab-cli"
+  url: https://github.com/satishbabariya/gitlab-cli
+  code: https://github.com/satishbabariya/gitlab-cli
+  description: "CLI tool for backing up and cloning all repositories from GitLab. 5 stars."
+  used:
+    - thing: Go
+    - thing: CLI
+    - thing: GitLab
+
+- name: "cmod"
+  url: https://github.com/satishbabariya/cmod
+  code: https://github.com/satishbabariya/cmod
+  description: "Git-native package and build tool for modern C++20 modules. 3 stars."
+  used:
+    - thing: Rust
+    - thing: C++20
+    - thing: Package Manager
+
+- name: "ratelimit"
+  url: https://github.com/satishbabariya/ratelimit
+  code: https://github.com/satishbabariya/ratelimit
+  description: "Rate-limiting middleware for Go Echo framework using Redis. 3 stars."
+  used:
+    - thing: Go
+    - thing: Echo
+    - thing: Redis
+
+# ──────────────────────────────────────────
+# Personal Repos — Compilers & Systems
+# ──────────────────────────────────────────
+
+- name: "tinyswift"
+  url: https://github.com/satishbabariya/tinyswift
+  code: https://github.com/satishbabariya/tinyswift
+  description: "Building a Swift compiler from scratch in C++ — an ongoing passion project with 15+ iterations exploring lexer, parser, AST, and codegen."
+  used:
+    - thing: C++
+    - thing: LLVM
+    - thing: Compiler Design
+
+- name: "tsc"
+  url: https://github.com/satishbabariya/tsc
+  code: https://github.com/satishbabariya/tsc
+  description: "TypeScript compiler implementation in C++."
+  used:
+    - thing: C++
+    - thing: Compiler
+
+- name: "compiler-boilerplate"
+  url: https://github.com/satishbabariya/compiler-boilerplate
+  code: https://github.com/satishbabariya/compiler-boilerplate
+  description: "Compiler infrastructure boilerplate inspired by Carbon Language."
+  used:
+    - thing: C++
+    - thing: Compiler
+
+- name: "raft-cluster"
+  url: https://github.com/satishbabariya/raft-cluster
+  code: https://github.com/satishbabariya/raft-cluster
+  description: "Raft consensus algorithm implementation in Go."
+  used:
+    - thing: Go
+    - thing: Distributed Systems
+    - thing: Raft
+
+- name: "tinydns"
+  url: https://github.com/satishbabariya/tinydns
+  code: https://github.com/satishbabariya/tinydns
+  description: "DNS server implementation in Rust."
+  used:
+    - thing: Rust
+    - thing: DNS
+    - thing: Networking
+
+- name: "CSQLite"
+  url: https://github.com/satishbabariya/CSQLite
+  code: https://github.com/satishbabariya/CSQLite
+  description: "C SQLite integration and experiments."
+  used:
+    - thing: C
+    - thing: SQLite
+
+- name: "lz4-swift"
+  url: https://github.com/satishbabariya/lz4-swift
+  code: https://github.com/satishbabariya/lz4-swift
+  description: "A high-performance, pure Swift implementation of the LZ4 compression algorithm."
+  used:
+    - thing: Swift
+    - thing: Compression
+    - thing: LZ4
+
+- name: "lz4-c3"
+  url: https://github.com/satishbabariya/lz4-c3
+  code: https://github.com/satishbabariya/lz4-c3
+  description: "A complete C3 language port of the LZ4 compression library."
+  used:
+    - thing: C3
+    - thing: Compression
+    - thing: LZ4
+
+- name: "syncmesh"
+  url: https://github.com/satishbabariya/syncmesh
+  code: https://github.com/satishbabariya/syncmesh
+  description: "Enterprise distributed file synchronization mesh for Docker volumes."
+  used:
+    - thing: Go
+    - thing: Docker
+    - thing: Distributed Systems
+
+- name: "krakenfs"
+  url: https://github.com/satishbabariya/krakenfs
+  code: https://github.com/satishbabariya/krakenfs
+  description: "Distributed filesystem implementation in Go."
+  used:
+    - thing: Go
+    - thing: Filesystem
+
+# ──────────────────────────────────────────
+# Personal Repos — SDKs & Libraries
+# ──────────────────────────────────────────
+
+- name: "prisma-go"
+  url: https://github.com/satishbabariya/prisma-go
+  code: https://github.com/satishbabariya/prisma-go
+  description: "A fully native Go implementation of Prisma ORM."
+  used:
+    - thing: Go
+    - thing: Prisma
+    - thing: ORM
+
+- name: "prisma-grammer"
+  url: https://github.com/satishbabariya/prisma-grammer
+  code: https://github.com/satishbabariya/prisma-grammer
+  description: "Prisma schema grammar definition using ANTLR."
+  used:
+    - thing: ANTLR
+    - thing: Prisma
+    - thing: Parser
+
+- name: "powerbi-go"
+  url: https://github.com/satishbabariya/powerbi-go
+  code: https://github.com/satishbabariya/powerbi-go
+  description: "Go client library for the Power BI REST API."
+  used:
+    - thing: Go
+    - thing: Power BI
+    - thing: SDK
+
+- name: "powerbi-report-server-go"
+  url: https://github.com/satishbabariya/powerbi-report-server-go
+  code: https://github.com/satishbabariya/powerbi-report-server-go
+  description: "Power BI Report Server REST API SDK for Go."
+  used:
+    - thing: Go
+    - thing: Power BI
+    - thing: Report Server
+
+- name: "ssrs-go"
+  url: https://github.com/satishbabariya/ssrs-go
+  code: https://github.com/satishbabariya/ssrs-go
+  description: "Go client for SQL Server Reporting Services (SSRS) REST API."
+  used:
+    - thing: Go
+    - thing: SSRS
+    - thing: SDK
+
+- name: "spring-data-orientdb"
+  url: https://github.com/satishbabariya/spring-data-orientdb
+  code: https://github.com/satishbabariya/spring-data-orientdb
+  description: "Spring Data integration for OrientDB with DDD patterns."
+  used:
+    - thing: Java
+    - thing: Spring
+    - thing: OrientDB
+
+- name: "echo-connect-go"
+  url: https://github.com/satishbabariya/echo-connect-go
+  code: https://github.com/satishbabariya/echo-connect-go
+  description: "gRPC + Connect Go + Echo framework integration."
+  used:
+    - thing: Go
+    - thing: gRPC
+    - thing: Connect
+    - thing: Echo
+
+- name: "log-execution-time-rs"
+  url: https://github.com/satishbabariya/log-execution-time-rs
+  code: https://github.com/satishbabariya/log-execution-time-rs
+  description: "Execution time logging macro for Rust."
+  used:
+    - thing: Rust
+    - thing: Macro
+    - thing: Logging
+
+- name: "SwiftDI"
+  url: https://github.com/satishbabariya/SwiftDI
+  code: https://github.com/satishbabariya/SwiftDI
+  description: "Dependency injection framework for Swift."
+  used:
+    - thing: Swift
+    - thing: DI
+
+# ──────────────────────────────────────────
+# Personal Repos — Tools & DevOps
+# ──────────────────────────────────────────
+
+- name: "deploy2docker"
+  url: https://github.com/satishbabariya/deploy2docker
+  code: https://github.com/satishbabariya/deploy2docker
+  description: "Deploy to remote Docker hosts using SSH."
+  used:
+    - thing: Go
+    - thing: Docker
+    - thing: SSH
+    - thing: CI/CD
+
+- name: "vault"
+  url: https://github.com/satishbabariya/vault
+  code: https://github.com/satishbabariya/vault
+  description: "SSH Vault — a tool for managing your SSH keys."
+  used:
+    - thing: Go
+    - thing: SSH
+    - thing: Security
+
+- name: "cursor-agent-cli"
+  url: https://github.com/satishbabariya/cursor-agent-cli
+  code: https://github.com/satishbabariya/cursor-agent-cli
+  description: "CLI for Cursor AI agent automation."
+  used:
+    - thing: Go
+    - thing: CLI
+    - thing: AI
+
+# ──────────────────────────────────────────
+# nomuq Org — Notable Projects
+# ──────────────────────────────────────────
+
+- name: "WhatsUp"
+  url: https://github.com/nomuq/WhatsUp
+  code: https://github.com/nomuq/WhatsUp
+  description: "Real-time chat app written in Swift 4 using Firebase and OTP Authentication. 45 stars. (Deprecated)"
+  used:
+    - thing: Swift
+    - thing: Firebase
+    - thing: OTP Auth
+
+- name: "RequestLogger"
+  url: https://github.com/nomuq/RequestLogger
+  code: https://github.com/nomuq/RequestLogger
+  description: "Powerful logging framework for Alamofire requests. 5 stars."
+  used:
+    - thing: Swift
+    - thing: Alamofire
+    - thing: Logging
+
+- name: "js-parser"
+  url: https://github.com/nomuq/js-parser
+  code: https://github.com/nomuq/js-parser
+  description: "Generated parser for JavaScript/TypeScript written in Go. 5 stars."
+  used:
+    - thing: Go
+    - thing: Parser
+    - thing: JavaScript
+
+- name: "LocalizationsGenerator"
+  url: https://github.com/nomuq/LocalizationsGenerator
+  code: https://github.com/nomuq/LocalizationsGenerator
+  description: "iOS localization code generator. 4 stars."
+  used:
+    - thing: Swift
+    - thing: iOS
+    - thing: Localization
+
+- name: "SwiftyCache"
+  url: https://github.com/nomuq/SwiftyCache
+  code: https://github.com/nomuq/SwiftyCache
+  description: "Swifty API for NSCache. 3 stars."
+  used:
+    - thing: Swift
+    - thing: Caching
+
+- name: "RxContacts"
+  url: https://github.com/RxSwiftCommunity/RxContacts
+  code: https://github.com/RxSwiftCommunity/RxContacts
+  description: "RxSwift wrapper around Apple's Contacts Framework. Created and donated to the official RxSwiftCommunity. 3 stars."
+  used:
+    - thing: Swift
+    - thing: RxSwift
+    - thing: Contacts
+
+- name: "flutter-jsonplaceholder"
+  url: https://github.com/nomuq/flutter-jsonplaceholder
+  code: https://github.com/nomuq/flutter-jsonplaceholder
+  description: "Flutter JSON Placeholder demo app. 3 stars."
+  used:
+    - thing: Dart
+    - thing: Flutter
+
+- name: "go-fiber-auth0-middleware"
+  url: https://github.com/nomuq/go-fiber-auth0-middleware
+  code: https://github.com/nomuq/go-fiber-auth0-middleware
+  description: "Auth0 middleware for Go Fiber framework. 2 stars."
+  used:
+    - thing: Go
+    - thing: Auth0
+    - thing: Fiber
+
+- name: "swift-quickjs"
+  url: https://github.com/nomuq/swift-quickjs
+  code: https://github.com/nomuq/swift-quickjs
+  description: "QuickJS (JavaScript Engine) bindings for Swift. 2 stars."
+  used:
+    - thing: Swift
+    - thing: C
+    - thing: QuickJS
+
+- name: "sourcekit-lsp-docker"
+  url: https://github.com/nomuq/sourcekit-lsp-docker
+  code: https://github.com/nomuq/sourcekit-lsp-docker
+  description: "Docker images for SourceKit-LSP (Swift Language Server). 2 stars."
+  used:
+    - thing: Dockerfile
+    - thing: Swift
+    - thing: LSP
+
+- name: "swift-vscode"
+  url: https://github.com/nomuq/swift-vscode
+  code: https://github.com/nomuq/swift-vscode
+  description: "VS Code extension for Swift development. 2 stars."
+  used:
+    - thing: TypeScript
+    - thing: VS Code
+    - thing: Swift
+
+- name: "DKChainableAnimationKit"
+  url: https://github.com/nomuq/DKChainableAnimationKit
+  code: https://github.com/nomuq/DKChainableAnimationKit
+  description: "Chainable animation kit for iOS. 2 stars."
+  used:
+    - thing: Swift
+    - thing: Animation
+
+- name: "RxAlamofire"
+  url: https://github.com/nomuq/RxAlamofire
+  code: https://github.com/nomuq/RxAlamofire
+  description: "RxSwift wrapper around Alamofire HTTP networking."
+  used:
+    - thing: Swift
+    - thing: RxSwift
+    - thing: Alamofire
+
+- name: "deepstream.io-client-swift"
+  url: https://github.com/nomuq/deepstream.io-client-swift
+  code: https://github.com/nomuq/deepstream.io-client-swift
+  description: "Swift client for Deepstream.io real-time server."
+  used:
+    - thing: Swift
+    - thing: Deepstream.io
+
+- name: "tunneler"
+  url: https://github.com/nomuq/tunneler
+  code: https://github.com/nomuq/tunneler
+  description: "VPN tunneling toolkit with iOS client, PKI, and Go server components."
+  used:
+    - thing: Go
+    - thing: Swift
+    - thing: VPN
+    - thing: Networking
+
+- name: "nyaa"
+  url: https://github.com/nomuq/nyaa
+  code: https://github.com/nomuq/nyaa
+  description: "Torrent server written in Go + React."
+  used:
+    - thing: Go
+    - thing: React
+    - thing: Torrent
+
+- name: "nstore"
+  url: https://github.com/nomuq/nstore
+  code: https://github.com/nomuq/nstore
+  description: "A Firestore server implementation using gRPC and MongoDB."
+  used:
+    - thing: Go
+    - thing: gRPC
+    - thing: MongoDB
+
+- name: "hyperswitch-rust"
+  url: https://github.com/nomuq/hyperswitch-rust
+  code: https://github.com/nomuq/hyperswitch-rust
+  description: "Payment switch implementation in Rust."
+  used:
+    - thing: Rust
+    - thing: Payments
+
+- name: "payment-switch"
+  url: https://github.com/nomuq/payment-switch
+  code: https://github.com/nomuq/payment-switch
+  description: "Payment processing switch implementation in Java."
+  used:
+    - thing: Java
+    - thing: Payments
+
+- name: "swift-marries-rust"
+  url: https://github.com/nomuq/swift-marries-rust
+  code: https://github.com/nomuq/swift-marries-rust
+  description: "Swift and Rust interoperability experiments."
+  used:
+    - thing: Swift
+    - thing: Rust
+    - thing: FFI
+
+- name: "manga-sources"
+  url: https://github.com/nomuq/manga-sources
+  code: https://github.com/nomuq/manga-sources
+  description: "Collection of manga source scrapers in Go — mangareader, mangafox, manganato, mangadex, and more."
+  used:
+    - thing: Go
+    - thing: Web Scraping
+
+- name: "relayer"
+  url: https://github.com/nomuq/relayer
+  code: https://github.com/nomuq/relayer
+  description: "Instant messaging server in Go."
+  used:
+    - thing: Go
+    - thing: Messaging
+
+- name: "WebRTCAudioMixer"
+  url: https://github.com/nomuq/WebRTCAudioMixer
+  code: https://github.com/nomuq/WebRTCAudioMixer
+  description: "Agora Audio and Effect Streaming demo for iOS."
+  used:
+    - thing: Swift
+    - thing: WebRTC
+    - thing: Audio
+
+- name: "pure-swift-compiler"
+  url: https://github.com/nomuq/pure-swift-compiler
+  code: https://github.com/nomuq/pure-swift-compiler
+  description: "Swift compiler implementation written in pure Swift."
+  used:
+    - thing: Swift
+    - thing: Compiler
+
+- name: "prisma-golang-migration-efforts"
+  url: https://github.com/nomuq/prisma-golang-migration-efforts
+  code: https://github.com/nomuq/prisma-golang-migration-efforts
+  description: "Research into migrating Prisma engine to Go, implemented in Rust."
+  used:
+    - thing: Rust
+    - thing: Prisma
+    - thing: Go

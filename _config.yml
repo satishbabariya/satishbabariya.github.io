@@ -20,12 +20,19 @@
 
 title: Satish Babariya
 email: satish.babariya@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Experienced Senior Software Engineer with a demonstrated history of working in the computer software industry. Skilled in Mobile, Web, Server Application Development. Strong engineering professional with a Computer Engineering educational background.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+description: >-
+  Software Engineer building systems across the full stack — from iOS apps and backend services to compiler engineering and cloud infrastructure. A decade of shipping code in Swift, Go, TypeScript, Rust, and C++. Currently at Tarka Labs working on cloud infrastructure.
+baseurl: ""
+url: "https://satishbabariya.com"
+github_username: satishbabariya
+
+social:
+  - title: github
+    url: https://github.com/satishbabariya
+  - title: email
+    url: mailto:satish.babariya@gmail.com
+  - title: linkedin
+    url: https://linkedin.com/in/satishbabariya
 
 # Build settings
 theme: minima
