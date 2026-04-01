@@ -1,24 +1,60 @@
 - company: Tarka Labs
   url: https://github.com/tarkalabs
   time: Feb 2023 - Present
-  position: Software Engineer
+  position: Senior Technical Consultant
+  description: "Senior consultant embedded across multiple client engagements, owning architecture and full-stack delivery across diverse domains and technology stacks."
+  highlights:
+    - Node.js + Angular platform with full DevOps pipeline (CI/CD, Docker, infrastructure automation)
+    - Angular enterprise frontend development
+    - Flutter cross-platform mobile application
+    - Python + LLM/AI backend pipelines and APIs
+    - "End-to-end ownership of a data intelligence platform — SwiftUI iOS app, Spring Boot + Java backend with Docker, REST APIs, frontend, and all DevOps"
+    - Python backend services with full AWS + Kubernetes infrastructure and DevOps lifecycle ownership
+    - "Yamaha (SRE/Platform Engineering): Leading enterprise platform engineering — Terraform infrastructure-as-code across multiple AWS accounts, Lambda, Cognito, DynamoDB, API Gateway, SQS, S3, CloudWatch, X-Ray, Secrets Manager, cross-account IAM, security monitoring, and CI/CD pipeline design with Infracost cost analysis"
 
 - company: McKinley & Rice
   url: https://mckinleyrice.com
   time: Sep 2021 - Jan 2023
-  position: Deputy Engineer
+  position: Senior iOS Developer / Deputy iOS Developer
+  description: "Worked across multiple client engagements in a full-stack consulting capacity, delivering across mobile, web, backend, and DevOps."
+  highlights:
+    - Built and shipped iOS mobile applications in Swift/SwiftUI
+    - Developed Next.js web applications for client-facing products
+    - Built Phaser.js browser-based games with TypeScript
+    - Developed Python backend APIs and services
+    - Managed CI/CD pipelines and deployment automation
+    - Progressed from Deputy iOS Developer to Senior iOS Developer
 
-- company: EverExpanse Pvt Ltd
+- company: EverExpanse
   url: https://www.everexpanse.com
-  time: Oct 2020 - Aug 2021
+  time: Oct 2020 - Sep 2021
   position: Associate Architect
+  description: "Led the React Native mobile team as a hands-on architect and team lead."
+  highlights:
+    - Owned mobile application architecture, code quality, and delivery for React Native projects
+    - Designed component structures and established engineering standards across the team
+    - Mentored developers and guided technical decisions
+    - Delivered cross-platform mobile applications across iOS and Android
 
-- company: Upsquare Solutions Pvt Ltd
+- company: Upsquare
   url: https://upsquare.solutions
   time: Oct 2019 - Oct 2020
   position: Software Engineer
+  description: "Full-stack and mobile engineer delivering across multiple technology stacks."
+  highlights:
+    - Flutter cross-platform mobile app development (iOS and Android)
+    - Node.js backend API development
+    - Go microservices and backend services
+    - Native iOS app development
+    - DevOps automation and deployment pipelines
 
 - company: WebMob Technologies
   url: https://webmobtech.com/
   time: Jun 2017 - Jul 2019
   position: Software Engineer
+  description: "Started engineering career as an iOS developer, building native mobile applications end-to-end in Swift."
+  highlights:
+    - Designed and developed iOS applications from UI implementation to App Store release
+    - Built full-cycle native mobile products for multiple client projects
+    - Worked with React.js for web frontend development
+    - Gained deep experience in mobile architecture, Apple frameworks, and client-facing product delivery

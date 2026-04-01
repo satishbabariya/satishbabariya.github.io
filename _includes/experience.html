@@ -11,12 +11,18 @@
           <div class="job__time">{{job.time}}</div>
         </div>
         <div class="job__position">{{job.position}}</div>
+        {% if job.description %}
+        <div class="job__description">{{job.description}}</div>
+        {% endif %}
+        {% if job.highlights %}
+        <ul class="job__highlights">
+          {% for item in job.highlights %}
+          <li>{{item}}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
-
-    <!-- <a href="{{site.resume}}" target="_blank" class="arrow-link"
-      >View My Resume</a
-    > -->
   </div>
 </section>
